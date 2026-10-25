@@ -1,21 +1,21 @@
-# UE5 - Sistema Modular de Interacción y Gestión de Combustible | Gameplay & Simulación (v0.1 & 0.2)
+# UE5 - SOP Simulation & Fluid Transfer System | Interactive Logic & State Management (Phase 1 & 2)
 
-Sistema modular y desacoplado de interacción y simulación de combustible desarrollado en **Unreal Engine 5.4**. Diseñado enfocado en arquitectura limpia, escalabilidad y separación de responsabilidades lógicas mediante el uso de Eventos Personalizados (CE) y Funciones (FN).
+Modular, decoupled interaction and fluid transfer simulation system developed in **Unreal Engine 5.4**. Engineered with a primary focus on clean architecture, scalability, and strict logical separation using Custom Events (CE) and Functions (FN).
 
-> **Core Focus:** Clean Architecture, Modular Interaction, State Management & Event-Driven UI.
+> **Core Focus:** Clean Architecture, Modular Interaction, Deterministic State Management & Event-Driven UI.
 
 ---
 
-## Demostración Visual y Arquitectura de Blueprints
+## Visual Showcase & Blueprint Architecture
 
-### Showcase del Prototipo (Greybox & Gameplay)
+### Prototype Showcase (Greybox & Simulation Flow)
 <img width="1920" alt="Gameplay 1" src="https://github.com/user-attachments/assets/c8655256-4b58-47ea-9c02-235653d3a3eb" />
 <img width="1920" alt="Gameplay 2" src="https://github.com/user-attachments/assets/d5998ed1-cfaa-4ba5-b545-25bd6e8091aa" />
 <img width="1920" alt="Gameplay 3" src="https://github.com/user-attachments/assets/f668519d-1202-430b-bba4-06307e73e7a2" />
 <img width="1920" alt="Gameplay 4" src="https://github.com/user-attachments/assets/2e289b84-463a-434c-9810-a70b1963c464" />
 <img width="1920" alt="Gameplay 5" src="https://github.com/user-attachments/assets/ac5b7c5c-f90c-47a2-8b81-112f2e4bb39e" />
 
-### Arquitectura de Blueprints y Código Documentado
+### Blueprint Architecture & Documented Logic
 <img width="1920" alt="Blueprint Logic 1" src="https://github.com/user-attachments/assets/55bff8ac-12ac-4365-996d-a0fd4dce0710" />
 <img width="1920" alt="Blueprint Logic 2" src="https://github.com/user-attachments/assets/2c8d5600-a980-4249-a188-cac4d569f8ba" />
 <img width="1920" alt="Blueprint Logic 3" src="https://github.com/user-attachments/assets/979ba56f-c09f-47e6-adbd-ae0a7c792e9a" />
@@ -25,20 +25,20 @@ Sistema modular y desacoplado de interacción y simulación de combustible desar
 
 ---
 
-## Aspectos Técnicos e Implementación
+## Technical Implementation & Core Architecture
 
-- **Desacoplamiento Lógico:** Separación entre lógica de procesamiento puro (Funciones) y el flujo de eventos en tiempo de ejecución (Custom Events).
-- **Flujo de Gameplay & Estados:** Control riguroso de estados del vehículo, simulación de repostaje, restricción de inputs y UI reactiva mediante delegados/eventos.
-- **Detección Eficiente:** Sistema de interacción por *Line Trace* optimizado evitando sobrecargar el *Tick* del personaje.
-- **Workflow & Assets:** Integración de modelos de prueba (surtidor, vehículo, bidones) con colisiones optimizadas en UE5.
-
----
-
-## Demostración en Video
-
--  **Prototipo Fase 1 (Base & Interaction):** [Ver demostración en LinkedIn](https://lnkd.in/p/d6fd_FJ9)
--  **Prototipo Fase 2 (Game Loop & Final Polish):** [Ver demostración en LinkedIn](https://lnkd.in/p/d5Qfkdfb)
+- **Decoupled System Architecture:** Strict separation between pure data processing (Functions) and event-driven runtime execution (Custom Events).
+- **Process Loop & State Validation:** Robust execution flow governing equipment states, fuel transfer simulation, input suppression, and reactive event-driven UMG updates.
+- **Optimized Spatial Queries:** Line Trace interaction pipeline engineered for high precision without frame-tick performance overhead.
+- **Industrial Asset Workflow:** Prototyping and integration of technical assets (fuel pump, vehicle, containers) with optimized UE5 collision profiles.
 
 ---
 
-**Desarrollado por Satur Games** | *Gameplay & Systems Programmer*
+## Video Demonstration
+
+- **Phase 1 Prototype (Base Logic & Interaction Pipeline):** [Watch on LinkedIn](https://lnkd.in/p/d6fd_FJ9)
+- **Phase 2 Prototype (Task Completion Loop & Final Integration):** [Watch on LinkedIn](https://lnkd.in/p/d5Qfkdfb)
+
+---
+
+**Developed by Satur Systems** | *Interactive Logic & Simulation Developer*
