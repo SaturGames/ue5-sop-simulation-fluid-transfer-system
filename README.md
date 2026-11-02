@@ -41,4 +41,4 @@ Modular, decoupled interaction and fluid transfer simulation system developed in
 
 ---
 
-**Developed by Satur Systems** | *Interactive Logic & Simulation Developer*
+**Developed by Saturs Systems** | *Unreal Engine Developer | Gameplay & Simulation Systems*
